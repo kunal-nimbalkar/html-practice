@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Right Sidebar Body Footer</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      div {
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body
+    style="display: flex; flex-direction: column; background-color: #cdcdcd"
+  >
+    <div>Header</div>
+    <div style="flex-grow: 1; display: flex; flex-direction: row;">
+      <div style="flex-basis:150px; flex-grow: 0; flex-shrink: 0; order: 1;">
+        <h1>Sidebar</h1>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
+      </div>
+      <div style="flex-grow:1;">
+        <h1>Body</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          illo asperiores exercitationem! Amet sapiente nulla, dolores
+          recusandae at eum alias quibusdam, eligendi aliquid totam eos itaque
+          voluptatum corporis. Obcaecati, suscipit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facilis
+          error atque labore laboriosam eius nesciunt, doloribus odit asperiores
+          nostrum, beatae voluptatibus minima cumque, laudantium incidunt
+          assumenda nulla dolore debitis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          illo asperiores exercitationem! Amet sapiente nulla, dolores
+          recusandae at eum alias quibusdam, eligendi aliquid totam eos itaque
+          voluptatum corporis. Obcaecati, suscipit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facilis
+          error atque labore laboriosam eius nesciunt, doloribus odit asperiores
+          nostrum, beatae voluptatibus minima cumque, laudantium incidunt
+          assumenda nulla dolore debitis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          illo asperiores exercitationem! Amet sapiente nulla, dolores
+          recusandae at eum alias quibusdam, eligendi aliquid totam eos itaque
+          voluptatum corporis. Obcaecati, suscipit.
+        </p>
+      </div>
+    </div>
+    <div>Footer</div>
+  </body>
+</html>
